@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chen/learning_gtsam/First_Porject/use_gtsam.cpp
+gtsam/base/Vector.h
+-
+gtsam/geometry/Pose2.h
+-
+gtsam/slam/BetweenFactor.h
+-
+gtsam/nonlinear/NonlinearFactorGraph.h
+-
+gtsam/nonlinear/Values.h
+-
+gtsam/nonlinear/Marginals.h
+-
+gtsam/nonlinear/LevenbergMarquardtOptimizer.h
+-
+gtsam/slam/PriorFactor.h
+-
+
